@@ -1,0 +1,19 @@
+{
+  "name": "superbot",
+  "version": "1.0.0",
+  "description": "superbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "abhijat saxena",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "portscanner": "^2.2.0"
+  }
+}

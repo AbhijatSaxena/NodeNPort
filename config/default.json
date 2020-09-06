@@ -1,0 +1,13 @@
+{
+    "SuperBotConfig": {
+        "URL": "0.0.0.0",
+        "Port": 5000
+    },
+    "MiniBotConfig": {
+        "URL": "0.0.0.0",
+        "PortConfig": {
+            "StartRange": 5001,
+            "EndRange": 6000
+        }
+    }
+}
