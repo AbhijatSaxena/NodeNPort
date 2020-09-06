@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "a7d9c751-c520-4b3e-b1c2-cb4a8bc733fe",
+		"name": "NodeNPort",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Super Bot",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000",
+					"host": [
+						"localhost"
+					],
+					"port": "5000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Child Bot",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5001",
+					"host": [
+						"localhost"
+					],
+					"port": "5001"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Minibots",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/minibots",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"minibots"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generate Minibot",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/generate-minibot",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"generate-minibot"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Kill Minibot",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/kill-minibot/36660",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"kill-minibot",
+						"36660"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
